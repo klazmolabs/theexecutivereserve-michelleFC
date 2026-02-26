@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Executive Reserve | Private In-office Barbering</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display:ital,wght@0,400;1,400&family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;600&family=Tinos:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
     .font-brand { font-family: 'Cinzel', serif; letter-spacing: 0.08em; }
-    .font-quote { font-family: 'Playfair Display', serif;}
+    .font-quote { font-family: 'Tinos', serif; font-style: italic; }
     .font-heading { font-family: 'Inter', sans-serif; }
     .font-ui { font-family: 'Montserrat', sans-serif; }
     .serif { font-family: 'Libre Baskerville', serif; }
@@ -41,17 +41,19 @@
 <body class="bg-stone-50 text-stone-900 overflow-x-hidden">
 
   <!-- Mobile Top Logo -->
-  <div class="md:hidden pt-8 pb-2 px-6">
+  <div class="md:hidden pt-8 pb-1 px-6">
     <img src="images/logo.png" alt="Logo" class="h-24 mx-auto">
   </div>
 
   <!-- Hero: Split Layout (Desktop) / Stacked (Mobile) -->
-  <header class="relative px-6 py-12 md:py-20 lg:py-24 max-w-7xl mx-auto overflow-hidden">
-    <div class="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
-      <div class="space-y-6 md:pr-0 md:max-w-2xl md:mx-auto reveal">
-        <img src="images/logo.png" alt="The Executive Reserve logo" class="hidden md:block h-24 lg:h-28 mx-auto mb-2">
-        <p class="font-quote text-stone-700 text-5xl md:text-6xl lg:text-6xl tracking-[0.03em] text-center md:text-center">"Tailored for those who lead."</p>
-        <h1 class="font-heading text-xl md:text-3xl lg:text-3xl leading-[1.1] text-stone-950 text-center md:text-center">Private In-office<br>Executive Barbering</h1>
+  <header class="relative px-6 py-12 md:py-16 lg:py-20 md:px-10 lg:px-12 max-w-7xl mx-auto overflow-hidden">
+    <div class="grid md:grid-cols-2 gap-12 md:gap-10 lg:gap-14 items-center">
+      <div class="space-y-4 md:pr-0 md:max-w-2xl md:mx-auto reveal">
+        <div class="space-y-0">
+          <img src="images/logo.png" alt="The Executive Reserve logo" class="hidden md:block h-20 lg:h-24 mx-auto mb-2">
+          <h1 class="font-quote text-stone-700 text-5xl md:text-4xl lg:text-5xl tracking-[0.03em] text-center md:text-center">"Tailored for those who lead."</h1>
+        </div>
+        <p class="font-heading text-xl md:text-2xl lg:text-3xl leading-[1.1] text-stone-950 text-center md:text-center">Private In-office<br>Executive Barbering</p>
       </div>
       <div class="relative group reveal reveal-delay-1">
         <div class="absolute inset-0 bg-gold/10 -rotate-3 rounded-2xl group-hover:rotate-0 transition-transform"></div>
@@ -61,14 +63,14 @@
   </header>
 
   <!-- The Story -->
-  <section class="bg-white py-20 md:py-24 px-6 border-y border-stone-200 reveal">
-    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+  <section class="bg-white py-20 md:py-22 px-6 md:px-10 lg:px-12 border-y border-stone-200 reveal">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-10 lg:gap-14 items-center">
       <div class="relative order-2 md:order-1">
         <img src="images/manatwindow.jpeg" alt="Executive by window" class="w-full h-auto rounded-2xl shadow-xl">
       </div>
       <div class="space-y-6 order-1 md:order-2 md:text-center">
-        <h2 class="font-heading text-4xl md:text-5xl text-stone-950">The Story</h2>
-        <p class="text-stone-600 leading-relaxed md:text-lg md:max-w-2xl md:mx-auto">
+        <h2 class="font-heading text-4xl md:text-4xl lg:text-5xl text-stone-950">The Story</h2>
+        <p class="text-stone-600 leading-relaxed md:text-base lg:text-lg md:max-w-2xl md:mx-auto">
           In an industry defined by excellence, only a select few command every moment. I deliver an elevated, concierge-level styling experience within your office. Never an errand, always a standard. Quiet sophistication for those who perform at the highest level. No travel. Just built-in convenience that moves with you.
         </p>
       </div>
@@ -76,12 +78,12 @@
   </section>
 
   <!-- It Matters -->
-  <section class="py-20 md:py-24 px-6 max-w-7xl mx-auto reveal">
-    <div class="grid md:grid-cols-2 gap-12 items-center">
+  <section class="py-20 md:py-22 px-6 md:px-10 lg:px-12 max-w-7xl mx-auto reveal">
+    <div class="grid md:grid-cols-2 gap-12 md:gap-10 lg:gap-14 items-center">
       <div class="space-y-6 md:text-center">
-        <h2 class="font-heading text-4xl md:text-5xl text-stone-950">It Matters</h2>
-        <p class="text-stone-600 leading-relaxed md:text-lg md:max-w-2xl md:mx-auto">
-          The Executive Reserve refines professional presentation for senior executives through a private, one-on-one service delivered within the office. Each session produces consistent, polished results, reinforcing a confident, commanding executive presence through a streamlined and elevated service experience.
+        <h2 class="font-heading text-4xl md:text-4xl lg:text-5xl text-stone-950">It Matters</h2>
+        <p class="text-stone-600 leading-relaxed md:text-base lg:text-lg md:max-w-2xl md:mx-auto">
+          The Executive Reserve refines professional presentation for senior executives through a private, one-on-one service delivered within the office. Each session delivers consistent, polished results that reinforce a confident executive presence - without the inconvenience of traditional salon appointments.
         </p>
       </div>
       <div class="relative">
@@ -90,38 +92,9 @@
     </div>
   </section>
 
-  <!-- Value Props: The Experience -->
-  <section class="bg-stone-950 text-stone-100 py-24 px-6 reveal">
-    <div class="max-w-5xl mx-auto">
-      <div class="text-center mb-12 rounded-2xl p-8 md:p-8 shadow-xl">
-        <p class="font-ui text-white text-2xl md:text-4xl lg:text-5xl uppercase">Request A Private Appointment</p>
-        <a href="sms:9739026683" class="font-ui block mt-4 text-white text-xl md:text-2xl lg:text-3xl uppercase tracking-wide hover:text-stone-200">Text: 973.902.6683</a>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Pricing Card -->
-        <div class="bg-stone-900 p-8 rounded-xl border border-stone-800 text-center flex flex-col justify-center space-y-4 shadow-xl">
-          <h3 class="font-ui text-3xl md:text-4xl lg:text-5xl tracking-wide text-white">The Experience</h3>
-          <span class="font-ui text-6xl gold-accent">$200</span>
-          <p class="font-ui text-lg md:text-xl text-white uppercase">No Tipping Culture</p>
-        </div>
-        
-        <!-- Description Card -->
-        <div class="md:col-span-2 bg-stone-900/50 p-8 rounded-xl border border-stone-800/50 space-y-6 md:text-center">
-          <p class="text-stone-300 leading-loose font-light italic md:max-w-2xl md:mx-auto">
-            This service is delivered within a fully self-contained mobile styling station designed for corporate settings. Hair is lightly misted to allow controlled execution before a tailored cut is performed using high-performance tools.
-          </p>
-          <p class="text-stone-300 leading-loose font-light italic md:max-w-2xl md:mx-auto">
-            Before completion, the edges are precisely refined through meticulous perimeter detailing, and the neck is finished with a cooling astringent. Hair is then professionally dried and styled with premium products, and all debris is fully vacuumed and cleared - leaving a clean, polished finish with true salon-level results.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Founder/Story: Clean & Professional -->
-  <section class="py-20 md:py-24 px-6 max-w-7xl mx-auto reveal">
-    <div class="grid md:grid-cols-5 gap-12 items-center">
+  <section class="py-20 md:py-22 px-6 md:px-10 lg:px-12 max-w-7xl mx-auto reveal">
+    <div class="grid md:grid-cols-5 gap-12 md:gap-10 lg:gap-14 items-center">
       <div class="md:col-span-2">
         <div class="relative">
           <img src="images/michelle.png" alt="Michelle Ferreira Castillo" class="w-full rounded-lg shadow-2xl">
@@ -129,10 +102,10 @@
       </div>
       <div class="md:col-span-3 space-y-8">
         <div class="space-y-2">
-          <h3 class="font-ui text-2xl md:text-3xl font-normal text-stone-950 text-center uppercase">Michelle Ferreira-Calisto</h3>
-          <p class="font-heading gold-accent text-lg md:text-xl text-center">Principal, The Executive Reserve</p>
+          <h3 class="font-ui text-2xl md:text-2xl lg:text-3xl font-normal text-stone-950 text-center uppercase">Michelle Ferreira-Calisto</h3>
+          <p class="font-heading gold-accent text-lg md:text-lg lg:text-xl text-center">Principal, The Executive Reserve</p>
         </div>
-        <div class="space-y-6 text-stone-600 leading-relaxed md:text-lg md:text-center">
+        <div class="space-y-6 text-stone-600 leading-relaxed md:text-base lg:text-lg md:text-center">
           <p class="md:max-w-3xl md:mx-auto">With over two decades of experience in New York's leading salons, including Pierre Michel Salon and Davide Torchio Salon, I am known for clean, modern cuts and a meticulous, detail-driven approach. My work is rooted in a family lineage of Portuguese barbers dating back to the 1920s.</p>
           <p class="md:max-w-3xl md:mx-auto">I operate privately and do not advertise, building long-standing client relationships through trust and discretion.</p>
           <p class="md:max-w-3xl md:mx-auto">The Executive Reserve was created after years of serving clients with demanding schedules and limited time. I identified a need for hair services integrated directly into the workday-eliminating travel and maximizing efficiency. This vision evolved into an on-site program designed for individuals who value consistency, discretion, and a high standard of personal presentation.</p>
@@ -145,8 +118,37 @@
     </div>
   </section>
 
+  <!-- Value Props: The Experience -->
+  <section class="bg-stone-950 text-stone-100 py-24 md:py-22 px-6 md:px-10 lg:px-12 reveal">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12 rounded-2xl p-8 md:p-8 shadow-xl">
+        <p class="font-ui text-white text-2xl md:text-3xl lg:text-4xl uppercase">Request A Private Appointment</p>
+        <a href="sms:9739026683" class="font-ui block mt-4 text-white text-xl md:text-xl lg:text-2xl uppercase tracking-wide hover:text-stone-200">Text: 973.902.6683</a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Pricing Card -->
+        <div class="bg-stone-900 p-8 rounded-xl border border-stone-800 text-center flex flex-col justify-center space-y-4 shadow-xl">
+          <h3 class="font-ui text-3xl md:text-3xl lg:text-4xl tracking-wide text-white">The Experience</h3>
+          <span class="font-ui text-6xl gold-accent">$200</span>
+          <p class="font-ui text-lg md:text-lg lg:text-xl text-white uppercase">No Tipping Culture</p>
+        </div>
+        
+        <!-- Description Card -->
+        <div class="md:col-span-2 bg-stone-900/50 p-8 rounded-xl border border-stone-800/50 space-y-6 md:text-center">
+          <p class="text-stone-300 leading-loose font-light italic md:max-w-2xl md:mx-auto">
+            This service is delivered within a fully self-contained, compact mobile styling station designed for corporate environments. Hair is lightly misted to ensure precision and control before a tailored men's cut is performed using high-performance cutting tools.
+          </p>
+          <p class="text-stone-300 leading-loose font-light italic md:max-w-2xl md:mx-auto">
+            Prior to completion, the perimeter is meticulously refined, and the neck is thoroughly cleaned and finished with a cooling astringent. Hair is then professionally dried and styled with premium products. Any hair in contact with the skin is gently removed to prevent irritation, and all debris is fully vacuumed and cleared - resulting in a clean, polished finish with true salon-level results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
-  <footer class="bg-stone-50 py-16 px-6 border-t border-stone-200 reveal">
+  <footer class="bg-stone-50 py-16 md:py-18 px-6 md:px-10 lg:px-12 border-t border-stone-200 reveal">
     <div class="max-w-7xl mx-auto text-center space-y-8">
       <img src="images/logo.png" alt="Logo" class="h-16 md:h-20 mx-auto">
       <div class="font-ui flex flex-col md:flex-row justify-center gap-4 text-lg md:text-xl leading-relaxed tracking-tight">
