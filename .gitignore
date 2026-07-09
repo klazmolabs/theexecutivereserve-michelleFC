@@ -1,0 +1,10 @@
+# Large source videos (over GitHub's 100MB limit)
+*.mov
+copy_*.mov
+videos/*.mov
+
+# Dependencies and local secrets
+node_modules/
+.env
+.env.local
+.env*.local

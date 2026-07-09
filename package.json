@@ -1,0 +1,11 @@
+{
+  "name": "theexecutivereserve-michellefc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "upload:video": "node scripts/upload-video.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.0"
+  }
+}
