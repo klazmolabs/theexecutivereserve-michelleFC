@@ -245,7 +245,7 @@
     if (heroVideo) {
       const videoSource = document.getElementById('hero-video-source');
       const blobVideoUrl = window.HERO_VIDEO_URL;
-      if (blobVideoUrl && videoSource) {
+      if (blobVideoUrl && videoSource && !videoSource.src.endsWith(blobVideoUrl)) {
         videoSource.src = blobVideoUrl;
         heroVideo.load();
       }
@@ -281,6 +281,11 @@
       playHeroVideo();
       updatePlayPauseUI();
       updateMuteUI();
+
+      // Retry autoplay once the video is ready, in case the first attempt fired too early.
+      heroVideo.addEventListener('canplay', () => {
+        if (heroVideo.paused) playHeroVideo();
+      }, { once: true });
 
       playPauseBtn.addEventListener('click', () => {
         if (heroVideo.paused) {
